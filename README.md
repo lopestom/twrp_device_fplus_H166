@@ -33,7 +33,6 @@ recovery-H166-A11-2023mmdd.img => Working?? Not Working???
 
 ------------------------------------
 
-
 Specs: [here](https://www.imei.info/fr/phonedatabase/fplus-h166/)
 Component Type | Details
 -------:|:-------------------------
@@ -44,7 +43,7 @@ GPU	         |  PowerVR GE8320
 RAM / ROM	         |  3GB / 32_64GB
 
 
-![fpluspro_H166](https://ds-blobs-3.cdn.devapps.ru/28946518/2-800x800.png?s=00543145b37d276565105ad2000000007359086aa3ab7a4102825bb38befc7a5)
+![fpluspro_H166](https://market.marvel.ru/upload/resize_cache/webp/iblock/5fd/5fd279858b589b60688d41cb2e1f9ed5.webp)
 
 ## Big thanks to:
 - [DroBinG from 4pda](https://4pda.to/forum/index.php?showuser=10661048) - For testing of TWRP.<br/>
