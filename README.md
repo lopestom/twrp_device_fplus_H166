@@ -19,15 +19,15 @@ recovery-H166-A11-2023mmdd.img => Working?? Not Working???
 <details><summary>Works - Click to open</summary>
 <p>
 
-- [?] ADB
-- [?] Decryption (Android 11)
+- [X] ADB
+- [X] Decryption (Android 11)
 - [X] Display
-- [?] Fasbootd
-- [?] Flashing
-- [?] MTP
-- [?] Sideload
-- [?] USB OTG
-- [?] Vibrator
+- [X] Fasbootd
+- [X] Flashing
+- [X] MTP
+- [X] Sideload
+- [X] USB OTG
+- [X] Vibrator
 </p>
 </details>
 
