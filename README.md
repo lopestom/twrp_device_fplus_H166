@@ -20,7 +20,7 @@ recovery-H166-A11-2023mmdd.img => Working?? Not Working???
 <p>
 
 - [?] ADB
-- [?] Decryption (Android 12)
+- [?] Decryption (Android 11)
 - [X] Display
 - [?] Fasbootd
 - [?] Flashing
@@ -47,7 +47,7 @@ RAM / ROM	         |  3GB / 32_64GB
 ![fpluspro_H166](https://ds-blobs-3.cdn.devapps.ru/28946518/2-800x800.png?s=00543145b37d276565105ad2000000007359086aa3ab7a4102825bb38befc7a5)
 
 ## Big thanks to:
-- [???? from 4pda](https://4pda.to/forum/) - For testing of TWRP.<br/>
+- [DroBinG from 4pda](https://4pda.to/forum/index.php?showuser=10661048) - For testing of TWRP.<br/>
 - [TeamWin](https://github.com/TeamWin) for TWRP SC.
 * TWRP version 3.7.0_11 *
 
