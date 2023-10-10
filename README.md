@@ -66,7 +66,7 @@ RAM / ROM	         |  3GB / 32_64GB
 ===================================================================== 
 
 ### To do more:
-- [ ] Improve the GUI visual part in relation to the camera hole vs CPU/Bat Information;
+- [ ] Improve the GUI visual part in relation to the camera hole vs CPU/Temperature Information;
 - [ ] Removing the information about \mnt\vendor\nvdata doesn't hurt anything but is annoying to see.
 
 ## To build with minimal twrp AOSP
