@@ -12,9 +12,9 @@ ro.konka.version.date=2021-09-24_17:46:51
 ```
 ### This branch twrp-11 has ***encrypt/decrypt*** files working.
 
-Status: testing
+Status: tested
 
-recovery-H166-A11-2023mmdd.img => Working?? Not Working???
+recovery-H166-A11-20230927.img => Working?? Not Working???
 
 <details><summary>Works - Click to open</summary>
 <p>
