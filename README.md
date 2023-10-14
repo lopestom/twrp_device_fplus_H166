@@ -53,7 +53,7 @@ RAM / ROM	         |  3GB / 32_64GB
 
 ![TWRP Menu](https://github.com/lopestom/twrp_device_fplus_H166/releases/download/Fplus_H166-SW09/Screenshot_2023-10-10-04-09-34_resized.png)
 ![Backup](https://github.com/lopestom/twrp_device_fplus_H166/releases/download/Fplus_H166-SW09/Screenshot_2023-10-10-04-15-48_resized.png)
-
+![Backup2](https://github.com/lopestom/twrp_device_fplus_H166/releases/download/Fplus_H166-SW09/IMG_20231010_160931_619.jpg)
 </p>
 </details>
 
