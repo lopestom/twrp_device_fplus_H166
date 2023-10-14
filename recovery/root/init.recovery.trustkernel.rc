@@ -1,10 +1,6 @@
 on init
     export LD_LIBRARY_PATH /system/lib64:/vendor/lib64:/vendor/lib64/hw
 
-    export ANDROID_ROOT /system_root
-    # Somehow AOSP build system hasn't provided a symlink here
-    symlink /system_root/system /system
-
 on fs
     mkdir /mnt/vendor 0755 system system
     mkdir /mnt/vendor/protect_f 0770 system system
