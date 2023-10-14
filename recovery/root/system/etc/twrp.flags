@@ -40,8 +40,8 @@
 /nvram                  emmc    /dev/block/platform/bootdevice/by-name/nvram       flags=display="NvRam";backup=1;flashimg=1
 
 # Subscriber Identification Module (SIM)
-/mnt/vendor/protect_f   ext4    /dev/block/platform/bootdevice/by-name/protect1       flags=display="Protect F"
-/mnt/vendor/protect_s   ext4    /dev/block/platform/bootdevice/by-name/protect2       flags=display="Protect S"
+/mnt/vendor/protect_f   ext4    /dev/block/platform/bootdevice/by-name/protect1       flags=display="Protect_f"
+/mnt/vendor/protect_s   ext4    /dev/block/platform/bootdevice/by-name/protect2       flags=display="Protect_s"
 
 # Trusted Execution Environment (TEE) - trustzone
 /tee1		    emmc	/dev/block/platform/bootdevice/by-name/tee1             flags=display="Tee1";backup=1;flashimg=1
