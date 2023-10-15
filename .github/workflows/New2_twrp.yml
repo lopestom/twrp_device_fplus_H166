@@ -95,4 +95,4 @@ jobs:
        tag_name: Fplus_H166-SW09
        name: TWRP37x_11
        files: | 
-         twrp/out/target/product/H166/recovery.img
+         twrp/out/target/product/H166/recovery*.img
