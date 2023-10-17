@@ -22,9 +22,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
-# Virtual A/B OTA
-$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
-
 # Inherit from star device
 $(call inherit-product, device/fplus/H166/device.mk)
 
