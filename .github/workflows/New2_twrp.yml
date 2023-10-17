@@ -14,9 +14,9 @@ on:
 
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b twrp-11
-  DEVICE: H166
+  DEVICE: WP5_Pro
   DT_LINK: https://github.com/lopestom/twrp_device_fplus_H166
-  DT_PATH: device/fplus/H166
+  DT_PATH: device/oukitel/WP5_Pro
   TARGET: recoveryimage
   TZ: Asia/manila
 #  DT_BRANCH: WIP
@@ -73,7 +73,7 @@ jobs:
     - name: Checkout device tree
       uses: actions/checkout@v2
       with:
-       path: twrp/device/fplus/H166
+       path: twrp/device/oukitel/WP5_Pro
 
     - name: Set Swap Space
       uses: pierotofy/set-swap-space@master
@@ -84,15 +84,15 @@ jobs:
       run: |
        PATH=~/bin:$PATH
        cd twrp
-       export ALLOW_MISSING_DEPENDENCIES=true && source build/envsetup.sh &&lunch twrp_H166-eng && mka $TARGET -j$(nproc --all)
-       cp  out/target/product/H166/recovery.img    out/target/product/H166/recovery-H166-A11-$(date +"%Y%m%d").img
+       export ALLOW_MISSING_DEPENDENCIES=true && source build/envsetup.sh &&lunch twrp_WP5_Pro-eng && mka $TARGET -j$(nproc --all)
+       cp  out/target/product/WP5_Pro/recovery.img    out/target/product/WP5_Pro/recovery-H166-A11-$(date +"%Y%m%d").img
              
     - name: Release recovery image
       uses: softprops/action-gh-release@v1
       env:
        GITHUB_TOKEN: ${{ secrets.TEST }}
       with:
-       tag_name: Fplus_H166-SW09
-       name: TWRP37x_11
+       tag_name: OUKITEL_WP5_Pro_EEA-A11
+       name: TWRP37x_11-V05
        files: | 
          twrp/out/target/product/H166/recovery*.img
