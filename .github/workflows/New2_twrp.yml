@@ -95,4 +95,4 @@ jobs:
        tag_name: OUKITEL_WP5_Pro_EEA-A11
        name: TWRP37x_11-V05
        files: | 
-         twrp/out/target/product/H166/recovery*.img
+         twrp/out/target/product/WP5_Pro/recovery*.img
