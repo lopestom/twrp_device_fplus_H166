@@ -92,7 +92,7 @@ jobs:
       env:
        GITHUB_TOKEN: ${{ secrets.TEST }}
       with:
-       tag_name: Fplus_H166-SW09
+       tag_name: Fplus_H166-SW12
        name: TWRP37x_11
        files: | 
          twrp/out/target/product/H166/recovery*.img
