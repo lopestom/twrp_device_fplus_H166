@@ -14,7 +14,16 @@ ro.hardware.gatekeeper=trustkernel
 
 ro.crypto.volume.filenames_mode=aes-256-cts
 ro.sf.lcd_density=320
-Build.BRAND=Fplus
+#Build.BRAND=MTK
+
+# Default properties
+ro.product.model=WP5 Pro
+ro.product.brand=OUKITEL
+ro.product.name=WP5_Pro_EEA_R
+ro.product.device=WP5_Pro
+ro.product.manufacturer=OUKITEL
+ro.build.product=WP5_Pro_EEA_R
+ro.product.bt_name=WP5 Pro
 
 # Crypt props
 #ro.crypto.allow_encrypt_override=true

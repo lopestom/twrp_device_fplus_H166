@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/fplus/H166
+LOCAL_PATH := device/oukitel/WP5_Pro
 
 
 # Dynamic Partitions stuff
@@ -28,7 +28,7 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 PRODUCT_PLATFORM := mt6765
-PRODUCT_BOARD := k62v1_64_h5
+PRODUCT_BOARD := d937d
 
     
 # Fastbootd stuff
