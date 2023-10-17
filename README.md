@@ -4,17 +4,18 @@ Helio G25 - mt6762_mt6765
 [![GPLv3+](https://img.shields.io/badge/license-GPLv3+-red.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ### Firmware version:
-SW09_fpluspro_H166_2021_09_24 -- k62v1_64_h5
+SW12_fpluspro_H166_2021_12_17 -- k62v1_64_h5
 
 ```
-ro.konka.version.release=KAAH5_RSF_RU_1.06.924
-ro.konka.version.date=2021-09-24_17:46:51
+ro.konka.version.release=KAAH5_RSF_RU_1.09.C17
+ro.konka.version.date=2021-12-17_19:34:58
+
 ```
 ### This branch twrp-11 has ***encrypt/decrypt*** files working.
 
 Status: tested
 
-recovery-H166-A11-20230927.img => Working?? Not Working???
+recovery-H166-A11-20231015.img => Working?? Not Working???
 
 <details><summary>Works - Click to open</summary>
 <p>
@@ -64,9 +65,11 @@ RAM / ROM	         |  3GB / 32_64GB
 ===================================================================== 
 
 ### To do more:
-- [ ] Improve the GUI visual part in relation to the camera hole vs CPU/Temperature Information;
-- [ ] Removing the information about \mnt\vendor\nvdata doesn't hurt anything but is annoying to see.
+- [X] Improve the GUI visual part in relation to the camera hole vs CPU/Temperature Information;
+- [X] Removing the information about \mnt\vendor\nvdata doesn't hurt anything but is annoying to see.
 
+Done!
+-----------
 ## To build with minimal twrp AOSP
 ```
 export ALLOW_MISSING_DEPENDENCIES=true
