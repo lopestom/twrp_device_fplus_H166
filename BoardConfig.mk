@@ -238,4 +238,4 @@ TW_EXCLUDE_APEX := true
 
 # Firmware version & Developer Display name
 TW_DEFAULT_DEVICE_NAME := fpluspro_H166
-TW_DEVICE_VERSION := 2-fpluspro_H166_SW09 - lopestom
+TW_DEVICE_VERSION := fpluspro_H166_SW12 - lopestom
