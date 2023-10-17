@@ -85,7 +85,7 @@ jobs:
        PATH=~/bin:$PATH
        cd twrp
        export ALLOW_MISSING_DEPENDENCIES=true && source build/envsetup.sh &&lunch twrp_WP5_Pro-eng && mka $TARGET -j$(nproc --all)
-       cp  out/target/product/WP5_Pro/recovery.img    out/target/product/WP5_Pro/recovery-H166-A11-$(date +"%Y%m%d").img
+       cp  out/target/product/WP5_Pro/recovery.img    out/target/product/WP5_Pro/recovery-WP5_Pro-A11-$(date +"%Y%m%d").img
              
     - name: Release recovery image
       uses: softprops/action-gh-release@v1
